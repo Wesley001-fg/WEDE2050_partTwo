@@ -1,0 +1,86 @@
+/* General Page Settings */
+body {
+    background-color: black;
+}
+
+main {
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Links Alignment */
+nav {
+    text-align: center;
+}
+
+nav a, nav details {
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+/* Banner Overlay Box */
+.intro {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.introImg {
+    width: 100%;
+    max-width: 1500px;
+    height: auto;
+}
+
+.banner-text-box {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    text-align: left;
+    background-color: black; /* Simplified background */
+    padding: 20px;
+    border-left: 4px solid white;
+}
+
+/* Clean Row Layout Layouts (Replacing Tables) */
+.content-row {
+    width: 100%;
+    clear: both; /* Prevents rows from overlapping each other */
+    padding: 20px 0;
+}
+
+.box-left {
+    width: 50%;
+    float: left;
+}
+
+.box-right {
+    width: 50%;
+    float: right;
+}
+
+/* Image adjustments inside our boxes */
+.content-row img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Horizontal Lines */
+hr {
+    border-color: grey;
+    clear: both;
+}
+
+/* Contact & Footer Alignments */
+#contact-box, footer {
+    text-align: center;
+    color: white;
+    clear: both;
+}
+
+#contact-box a {
+    color: white;
+}

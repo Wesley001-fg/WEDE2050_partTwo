@@ -2,106 +2,105 @@
 <html>
     <head>
         <title>index</title>
+        <link rel="stylesheet" href="css/style.css"> 
     </head>
 
-    <body style="background-color: black;">
+    <body>
         <header></header>
-        <main style="color: white;">
+        
+        <main>
             <h1>Spacebotics</h1>
 
-            <center>
-                <details style="display: inline-block; vertical-align: middle;"> <!-- https://www.w3schools.com/Tags/tag_summary.asp-->
+            <nav>
+                <details>
                     <summary>Vehicles</summary>
-                    <a href="r1.html" style="color: white;">r1</a>
-                    <a href="r2.html" style="color: white;">r2</a>
-                    <a href="r3.html" style="color: white;">r3</a>
+                    <a href="r1.html">r1</a>
+                    <a href="r2.html">r2</a>
+                    <a href="r3.html">r3</a>
                 </details>
-                <a href="images.html" style="color: white;">Multimedia</a>
-                <a href="merch.html" style="color: white;">Merch</a>
-                <a href="contact us.html" style="color: white;">Get in touch</a>
-                <a href="about us.html" style="color: white;">About us</a>
-            </center>
+                <a href="images.html">Multimedia</a>
+                <a href="merch.html">Merch</a>
+                <a href="contact us.html">Get in touch</a>
+                <a href="about us.html">About us</a>
+            </nav>
 
             <br>
-            <center>
-                <div style="position: relative; display: inline-block; width: 100%; max-width: 1500px;">
-                    <img src="images/earth.jpg" width="100%" style="height: auto; max-height: 1100px; display: block;">
-                    <div style="position: absolute; bottom: 10%; left: 5%; text-align: left; background-color:  rgba(0,0,0,0.6); padding: 20px; border-left: 4px solid white;">
-                        <h2 style="margin: 0; font-size: 2.5em; text-transform: uppercase;">Advancing space robotics</h2>
-                        <p style="margin: 10px 0 0 0; font-size: 1.2em;">Developing the next generation of open-source autonomous explorers</p>
-                    </div>
+ 
+            <div class="intro">
+                <img src="images/earth.jpg" class="introImg">
+                <div class="banner-text-box">
+                    <h2>Advancing space robotics</h2>
+                    <p>Developing the next generation of open-source autonomous explorers</p>
                 </div>
-            </center>
+            </div>
+            
             <br>
 
-            <table width="100%" border="0" cellpadding="20" style="color: white;">
-                <tr>
-                    <td width="50%" valign="middle">
-                        <h2>Space Technology</h2>
-                        <p>Spacebotics buildes robotic solutions that enable humanity's space exploration across the solar system. We design, build, and deploy low-cost robotic hardware.</p>
-                        <p>As a non-profit, we engineer cutting-edge aerospace platforms. Our goal is to revolutionize robot space technology by creating robust rovers that will assist future missions on the international space agencies in Earth orbit, the Moon, Mars, and beyond.</p>
-                    </td>
-                    <td width="50%" valign="middle" align="center">
-                        <img src="images/m02.jpg" width="600" height="400">
-                    </td>
-                </tr>
-            </table>
+            <!-- Space Technology Section -->
+            <div id="space-tech-box" class="content-row">
+                <div class="box-left">
+                    <h2>Space Technology</h2>
+                    <p>Spacebotics buildes robotic solutions that enable humanity's space exploration across the solar system. We design, build, and deploy low-cost robotic hardware.</p>
+                    <p>As a non-profit, we engineer cutting-edge aerospace platforms. Our goal is to revolutionize robot space technology by creating robust rovers that will assist future missions on the international space agencies in Earth orbit, the Moon, Mars, and beyond.</p>
+                </div>
+                <div class="box-right">
+                    <img src="images/m02.jpg" width="600" height="400" alt="Space Tech">
+                </div>
+            </div>
 
-            <br><hr style="border-color: grey;"><br>
+            <hr>
 
-            <table width="100%" border="0" cellpadding="20" style="color: white;">
-                <tr>
-                    <td width="50%" valign="middle" align="center">
-                        <img src="images/mar.jpg" width="700" height="700">
-                    </td>
-                    <td width="50%" valign="middle">
-                        <h2>Mars Planter</h2>
-                        <p>Our specialized Mars planter is engineered to execute fully autonomous agricultural and environmental preparation tasks. It actively navigates the landscape to dig precise seed holes, drop plant seeds, distribute water, and blend raw fertilizers.</p>
-                        <p><strong>Hardware specs:</strong> Built with an object-tracking ultrasonic sensor and an camera. The rover utilizes rechargeable batteries powered by solar energy, dust-resistant folding solar panels designed for extreme Martian storms.</p>
-                    </td>
-                </tr>
-            </table>
+            <!-- Mars Planter Section -->
+            <div id="mars-box" class="content-row">
+                <div class="box-left">
+                    <img src="images/mar.jpg" width="700" height="700" alt="Mars Planter">
+                </div>
+                <div class="box-right">
+                    <h2>Mars Planter</h2>
+                    <p>Our specialized Mars planter is engineered to execute fully autonomous agricultural and environmental preparation tasks. It actively navigates the landscape to dig precise seed holes, drop plant seeds, distribute water, and blend raw fertilizers.</p>
+                    <p><strong>Hardware specs:</strong> Built with an object-tracking ultrasonic sensor and an camera. The rover utilizes rechargeable batteries powered by solar energy, dust-resistant folding solar panels designed for extreme Martian storms.</p>
+                </div>
+            </div>
 
-            <br><hr style="border-color: #333;"><br>
+            <hr>
 
-            <table width="100%" border="0" cellpadding="20" style="color: white;">
-                <tr>
-                    <td width="50%" valign="middle">
-                        <h2>Lightweight robot</h2>
-                        <p>We completely redesigned the rover chassis to eliminate unnecessary mass. By using lightweight components to be lighter. With the aim to lower total operational mission costs.</p>
-                        <p><strong>Range & Connectivity:</strong> Despite its weight, this machine can travel long distances, across challenging terrains. It maintains long-range wireless communication system by a Bluetooth module component.</p>
-                    </td>
-                    <td width="50%" valign="middle" align="center">
-                        <img src="images/v.jpg" width="430" height="480">
-                    </td>
-                </tr>
-            </table>
+            <!-- Lightweight Robot Section -->
+            <div id="r1-box" class="content-row">
+                <div class="box-left">
+                    <h2>Lightweight robot</h2>
+                    <p>We completely redesigned the rover chassis to eliminate unnecessary mass. By using lightweight components to be lighter. With the aim to lower total operational mission costs.</p>
+                    <p><strong>Range & Connectivity:</strong> Despite its weight, this machine can travel long distances, across challenging terrains. It maintains long-range wireless communication system by a Bluetooth module component.</p>
+                </div>
+                <div class="box-right">
+                    <img src="images/v.jpg" width="430" height="480" alt="Lightweight Robot">
+                </div>
+            </div>
 
-            <br><hr style="border-color: grey;"><br>
+            <hr>
 
-            <table width="100%" border="0" cellpadding="20" style="color: white;">
-                <tr>
-                    <td width="50%" valign="middle" align="center">
-                        <img src="images/IMG.jpg" width="600" height="400">
-                    </td>
-                    <td width="50%" valign="middle">
-                        <h2>Resource Discovery: Ice Drilling</h2>
-                        <p>Sustaining life away from Earth requires water. One of the rovers built features are heavy-duty mechanical drill and extract frozen ice samples, and photograph.</p>
-                        <p><strong>Hardware:</strong> Uses the signature Spacebotics dual-layer protection suite, combining obstacle-avoiding ultrasonic, high-resolution cameras, and unfoldable solar panels that will prevent the panels from being covered in dust.</p>
-                    </td>
-                </tr>
-            </table>
+            <!-- Resource Discovery Section -->
+            <div id="r2-box" class="content-row">
+                <div class="box-left">
+                    <img src="images/IMG.jpg" width="600" height="400" alt="Ice Drilling">
+                </div>
+                <div class="box-right">
+                    <h2>Resource Discovery: Ice Drilling</h2>
+                    <p>Sustaining life away from Earth requires water. One of the rovers built features are heavy-duty mechanical drill and extract frozen ice samples, and photograph.</p>
+                    <p><strong>Hardware:</strong> Uses the signature Spacebotics dual-layer protection suite, combining obstacle-avoiding ultrasonic, high-resolution cameras, and unfoldable solar panels that will prevent the panels from being covered in dust.</p>
+                </div>
+            </div>
 
-            <br><hr style="border-color: grey;"><br>
-\
-            <center>
+            <hr>
+
+            <!-- Contact Box Section -->
+            <div id="contact-box">
                 <p>We distribute our blueprints,software scripts, and physical prototype to global space organizations entirely for free or through academic research grants.</p>
                 <p>Reach out to us for more information.</p>
-                <p><a href="contact us.html" style="color: white;"> Get in touch</a></p>
-            </center>
+                <p><a href="contact us.html">Get in touch</a></p>
+            </div>
         </main>
 
-        <br></br>
-        <center><footer style="color: white;">&copy; ST10501318</footer></center>
+        <br>
+        <footer>&copy; ST10501318</footer>
     </body>
 </html>
