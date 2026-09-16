@@ -2,67 +2,71 @@
 <html>
     <head>
         <title>index</title>
+        <link rel="stylesheet" href="css/style.css">
     </head>
 
-    <body style="background-color: black;">
-        <header></header>
-        <main style="color: white;">
+    <body>
+        <header>
             <h1>Spacebotics</h1>
-
-            <center>
-                <details style="display: inline-block; vertical-align: middle;"> <!-- https://www.w3schools.com/Tags/tag_summary.asp-->
+            <nav>
+                <details>
                     <summary>Vehicles</summary>
-                    <a href="r1.html" style="color: white;">v1</a>
-                    <a href="r2.html" style="color: white;">v2</a>
-                    <a href="r3.html" style="color: white;">v3</a>
+                    <a href="r1.html">r1</a>
+                    <a href="r2.html">r2</a>
+                    <a href="r3.html">r3</a>
                 </details>
-                <a href="index.html" style="color: white;">Home</a>
-                <a href="images.html" style="color: white;">Multimedia</a>
-                <a href="merch.html" style="color: white;">Merch</a>
-                <a href="contact us.html" style="color: white;">Get in touch</a>
-                <a href="about us.html" style="color: white;">About us</a>
-            </center>
 
-            <br></br>
+                <a href="index.html">Home</a>
+                <a href="images.html">Multimedia</a>
+                <a href="merch.html">Merch</a>
+                <a href="contact us.html">Get in touch</a>
+                <a href="about us.html">About us</a>
+            </nav>
+        </header>
+
+        <main>
+            <br>
 
             <h1><b>r1 - Mars Rover</b></h1>
-            <hr></hr>
+            <hr>
 
-        <div>
-            <img src="images/v.jpg" alt="Mars Rover" align="left" width="45%" style="margin-right: 5%;">
-            <p>
-                Capability:Habitat Planter on marsperforms autonomous tasks such as digging small holes on the ground to plant seeds and water them, combining Mars soil with fertilizerRechargeable battery and power by unfoldable and foldable solar panels for Mars dust stormsinspection camera, ultrasonic sensor to detect objects
-            </p>
-        </div>
+            <!-- First Details Row -->
+            <div class="content-row">
+                <div class="box-left">
+                    <img src="images/v.jpg" alt="Mars Rover">
+                </div>
+                <div class="box-right">
+                    <p>
+                        Capability: Habitat Planter on Mars performs autonomous tasks such as digging small holes on the ground to plant seeds and water them, combining Mars soil with fertilizer. Rechargeable battery and power by unfoldable and foldable solar panels for Mars dust storms. Inspection camera, ultrasonic sensor to detect objects.
+                    </p>
+                </div>
+            </div>
 
-        <!-- ensures the next row starts below -->
-        <br clear="all"><br><br>
+            <hr>
 
-        <div>
+            <div class="content-row">
+                <div class="box-left">
+                    <p>
+                        Size: Ultra lightweight & affordable optimized to be lighter than any other existing rover. This ultimately means the mission will be more affordable to you. It is capable of communicating long-range and traveling multiple kilometers across the lunar surface. Bluetooth module is used for communication wireless communication distance.
+                    </p>
+                </div>
+                <div class="box-right">
+                    <img src="images/xy.jpg" alt="Rover Details">
+                </div>
+            </div>
 
-            <img src="images/xy.jpg" alt="Rover Details" align="right" width="45%" style="margin-left: 5%;">
-            <p>
-                Size: Ultra lightweight & affordable optimized to be lighter than any other existing rover. This ultimately means the mission will be more affordable to you. It is capable of communicating long-range and traveling multiple kilometers across the lunar surface bluetooth module is used for communication wireless communication distance
-            </p>
-        </div>
+            <hr>
+        </main>
 
-        <br clear="all"><br><br>
-
-        <div align="center">
+        <div id="contact-box">
             <p>
                 Interested in surviving the lunar night or other custom missions? 
                 To learn more about all our capabilities, including our wireless charging system that can survive the sol nights, 
             </p>
-
-            <p><a href="contact us.html" style="color: white;"> Get in touch</a></p>
-      
+            <p><a href="contact us.html">Get in touch</a></p>
         </div>
-        </main>
 
-         <br></br>
-        <center><footer style="color: white;">&copy; ST10501318</footer></center>
+        <br>
+        <footer>&copy; ST10501318</footer>
     </body>
 </html>
-
-
-        

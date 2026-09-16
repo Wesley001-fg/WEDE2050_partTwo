@@ -2,132 +2,148 @@
 <html> 
     <head> 
         <title>Merch - Spacebotics</title> 
+        <link rel="stylesheet" href="css/style.css">
+         <style>
+            body {
+                background-color: white;
+                color: black;
+            }
+            main, header h1, nav a, nav details, footer {
+                color: black;
+            }
+        </style>
     </head> 
-    <body style="background-color: white; color: black;"> 
-        <header></header> 
+
+    <body>
+        <header>
+            <h1>Spacebotics</h1>
+            <br>
+            <nav>
+                <details>
+                    <summary>Vehicles</summary>
+                    <a href="r1.html">r1</a>
+                    <a href="r2.html">r2</a>
+                    <a href="r3.html">r3</a>
+                </details>
+             
+                <a href="index.html">Home</a> 
+                <a href="images.html">Multimedia</a> 
+                <a href="merch.html">Merch</a> 
+                <a href="contact us.html">Get in touch</a> 
+                <a href="about us.html">About us</a>
+            </nav>
+        </header> 
         <main> 
-            <h1>Spacebotics</h1> 
-            
-            <center> 
-                <details style="display: inline-block; vertical-align: middle;"> <!-- https://w3schools.com--> 
-                    <summary>Vehicles</summary> 
-                    <a href="r1.html" style="color: black;">v1</a> 
-                    <a href="r2.html" style="color: black;">v2</a> 
-                    <a href="r3.html" style="color: black;">v3</a> 
-                </details> 
 
-                <a href="index.html" style="color: black;">Home</a> 
-                <a href="images.html" style="color: black;">Multimedia</a> 
-                <a href="merch.html" style="color: black;">Merch</a> 
-                <a href="contact us.html" style="color: black;">Get in touch</a> 
-                <a href="about us.html" style="color: black;">About us</a> 
-            </center>
-
+             <main> 
             <br><br>
             <h1>PRODUCTS</h1>
 
-            <!-- Table to place images next to each other -->
-            <table width="100%" border="0" cellpadding="10" cellspacing="0">
-                <tr>
-                    <td width="33.33%" valign="top">
-                        <img src="images/Black.webp" width="180" height="180">
-                        <p>Unisex T-Shirt - R150</p>
-                        
-                        <p> 
-                            <input type="submit" value="buy" style="font-weight: bold; padding: 10px 20px; border: none; cursor: pointer;"> 
-                        </p> 
+            <!-- Container replacing the table -->
+            <div class="products-container">
+                
+                <!-- Product 1 Box -->
+                <div class="product-column">
+                    <img src="images/Black.webp" width="180" height="180" alt="Spacebotics T-Shirt">
+                    <p>Unisex T-Shirt - R150</p>
+                    
+                    <p> 
+                        <input type="submit" value="buy"> 
+                    </p> 
 
-                        <details style="display: inline-block; vertical-align: middle;"> 
-                            <summary>Card Details</summary> 
-                            <p>Card Number: <input type="text" style="width: 120px;"></p>
-                            <p>Expiry: <input type="text" style="width: 40px;"> CVV: <input type="text" style="width: 30px;"></p>
-                        </details>
+                    <details> 
+                        <summary>Card Details</summary> 
+                        <p>Card Number: <input type="text" style="width: 120px;"></p>
+                        <p>Expiry: <input type="text" style="width: 40px;"> CVV: <input type="text" style="width: 30px;"></p>
+                    </details>
 
-                        <details style="display: inline-block; vertical-align: middle;"> 
-                            <summary>User Address</summary> 
-                            <p>Street: <input type="text" style="width: 120px;"></p>
-                            <p>City: <input type="text" style="width: 120px;"></p>
-                        </details>
+                    <details> 
+                        <summary>User Address</summary> 
+                        <p>Street: <input type="text" style="width: 120px;"></p>
+                        <p>City: <input type="text" style="width: 120px;"></p>
+                    </details>
 
-                        <p>
-                            <input type="submit" value="pay" style="font-weight: bold; padding: 10px 20px; border: none; cursor: pointer;">
-                        </p>
+                    <p>
+                        <input type="submit" value="pay">
+                    </p>
 
-                        <details style="display: inline-block; vertical-align: middle;"> 
-                            <summary>Delivery Status</summary> 
-                            <a>will be delivered in the next hour</a>
-                        </details>
-                    </td>
+                    <details> 
+                        <summary>Delivery Status</summary> 
+                        <a>will be delivered in the next hour</a>
+                    </details>
+                </div>
 
- 
-                    <td width="33.33%" valign="top">
-                        <img src="images/Black.webp" width="180" height="180">
-                        <p>Unisex T-Shirt - R150</p>
-                        
-                        <p> 
-                            <input type="submit" value="buy" style="font-weight: bold; padding: 10px 20px; border: none; cursor: pointer;"> 
-                        </p> 
+                <!-- Product 2 Box -->
+                <div class="product-column">
+                    <img src="images/Black.webp" width="180" height="180" alt="Spacebotics T-Shirt">
+                    <p>Unisex T-Shirt - R150</p>
+                    
+                    <p> 
+                        <input type="submit" value="buy"> 
+                    </p> 
 
-                        <details style="display: inline-block; vertical-align: middle;"> 
-                            <summary>Card Details</summary> 
-                            <p>Card Number: <input type="text" style="width: 120px;"></p>
-                            <p>Expiry: <input type="text" style="width: 40px;"> CVV: <input type="text" style="width: 30px;"></p>
-                        </details>
+                    <details> 
+                        <summary>Card Details</summary> 
+                        <p>Card Number: <input type="text" style="width: 120px;"></p>
+                        <p>Expiry: <input type="text" style="width: 40px;"> CVV: <input type="text" style="width: 30px;"></p>
+                    </details>
 
-                        <details style="display: inline-block; vertical-align: middle;"> 
-                            <summary>User Address</summary> 
-                            <p>Street: <input type="text" style="width: 120px;"></p>
-                            <p>City: <input type="text" style="width: 120px;"></p>
-                        </details>
+                    <details> 
+                        <summary>User Address</summary> 
+                        <p>Street: <input type="text" style="width: 120px;"></p>
+                        <p>City: <input type="text" style="width: 120px;"></p>
+                    </details>
 
-                        <p>
-                            <button>Buy</button> <!--changed text box to button-->
-                            <!--input type="submit" value="pay" style="font-weight: bold; padding: 10px 20px; border: none; cursor: pointer;"-->
-                        </p>
+                    <p>
+                        <button>Buy</button>
+                    </p>
 
-                        <details style="display: inline-block; vertical-align: middle;"> 
-                            <summary>Delivery Status</summary> 
-                            <a>will be delivered in the next hour</a>
-                        </details>
-                    </td>
+                    <details> 
+                        <summary>Delivery Status</summary> 
+                        <a>will be delivered in the next hour</a>
+                    </details>
+                </div>
 
-                    <td width="33.33%" valign="top">
-                        <img src="images/Black.webp" width="180" height="180">
-                        <p>Unisex T-Shirt - R150</p>
-                        
-                        <p> 
-                            <button>Buy</button> <!--changed text box to button-->
-                         
-                        </p> 
+                <!-- Product 3 Box -->
+                <div class="product-column">
+                    <img src="images/Black.webp" width="180" height="180" alt="Spacebotics T-Shirt">
+                    <p>Unisex T-Shirt - R150</p>
+                    
+                    <p> 
+                        <button>Buy</button>
+                    </p> 
 
-                        <details style="display: inline-block; vertical-align: middle;"> 
-                            <summary>Card Details</summary> 
-                            <p>Card Number: <input type="text" style="width: 120px;"></p>
-                            <p>Expiry: <input type="text" style="width: 40px;"> CVV: <input type="text" style="width: 30px;"></p>
-                        </details>
+                    <details> 
+                        <summary>Card Details</summary> 
+                        <p>Card Number: <input type="text" style="width: 120px;"></p>
+                        <p>Expiry: <input type="text" style="width: 40px;"> CVV: <input type="text" style="width: 30px;"></p>
+                    </details>
 
-                        <details style="display: inline-block; vertical-align: middle;"> 
-                            <summary>User Address</summary> 
-                            <p>Street: <input type="text" style="width: 120px;"></p>
-                            <p>City: <input type="text" style="width: 120px;"></p>
-                        </details>
+                    <details> 
+                        <summary>User Address</summary> 
+                        <p>Street: <input type="text" style="width: 120px;"></p>
+                        <p>City: <input type="text" style="width: 120px;"></p>
+                    </details>
 
-                        <p>
-                            <button>Pay</button>
-                        </p>
+                    <p>
+                        <button>Pay</button>
+                    </p>
 
-                        <details style="display: inline-block; vertical-align: middle;"> 
-                            <summary>Delivery Status</summary> 
-                            <a>will be delivered in the next hour</a>
-                        </details>
-                    </td>
-                </tr>
-            </table>
+                    <details> 
+                        <summary>Delivery Status</summary> 
+                        <a>will be delivered in the next hour</a>
+                    </details>
+                </div>
+                
+            </div>
+        </main>
 
-        </main> 
+    <div id="contact-box">
+        <p>Reach out to us for more information.</p>
+        <p><a href="contact us.html">Get in touch</a></p>
+    </div>
 
-        <br><br>
-        <center><footer>&copy; ST10501318</footer></center>
- 
-    </body> 
+    <br>
+    <footer>&copy; ST10501318</footer>
+</body>
 </html>

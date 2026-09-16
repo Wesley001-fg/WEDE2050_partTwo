@@ -2,65 +2,68 @@
 <html> 
 <head> 
     <title>Contact</title> 
+    <link rel="stylesheet" href="css/style.css">
 </head> 
-<body style="background-color: black;"> 
-    <header></header> 
-    <main style="color: white;"> 
-        <h1>Spacebotics</h1> 
-        
-        <center> 
-            <details style="display: inline-block; vertical-align: middle;"> <!-- https://www.w3schools.com/Tags/tag_summary.asp--> 
-                <summary>Robots</summary> 
-                <a href="r1.html" style="color: white;">v1</a> 
-                <a href="r2.html" style="color: white;">v2</a> 
-                <a href="r3.html" style="color: white;">v3</a> 
-            </details> 
-
+<body> 
+    <header>
+        <h1>Spacebotics</h1>
+        <br>
+        <nav>
+            <details>
+                <summary>Vehicles</summary>
+                <a href="r1.html">r1</a>
+                <a href="r2.html">r2</a>
+                <a href="r3.html">r3</a>
+            </details>
+         
             <a href="index.html" style="color: white;">Home</a> 
-            <a href="images.html" style="color: white;">Multimedia</a> 
-            <a href="merch.html" style="color: white;">Merch</a> 
-            <a href="contact us.html" style="color: white;">Get in touch</a> 
-            <a href="about us.html" style="color: white;">About us</a> 
-        </center>
+            <a href="images.html">Multimedia</a>
+            <a href="merch.html">Merch</a>
+            <a href="contact us.html">Get in touch</a>
+            <a href="about us.html">About us</a>
+        </nav>
+    </header> 
 
+     <main> 
         <br><br>
 
-            <form> 
-                <center> 
-                    <p>
-                        <label style="display: inline-block; width: 100px; text-align: right;">Your name: </label>
-                        <input type="text" name="name" required style="width: 250px; padding: 5px;">
-                    </p> 
-                    
-                    <p>
-                        <label style="display: inline-block; width: 100px; text-align: right;">Your email: </label>
-                        <input type="email" name="email" required style="width: 250px; padding: 5px;">
-                    </p> 
-                    
-                    <p valign="top">
-                        <label style="display: inline-block; width: 100px; text-align: right; vertical-align: top;">Your message: </label>
-                        <textarea name="message" required style="width: 250px; height: 100px; padding: 5px;"></textarea>
-                    </p> 
-                    
-                    <p> 
-                        <input type="submit" value="Send Message" style="background-color: white; color: black; font-weight: bold; padding: 10px 20px; border: none; cursor: pointer;"> 
-                    </p> 
-                    
-                    <br><br>
-                    <hr style="width: 50%; border-color: grey;">
-                    <br>
+        <!-- Clean Form Layout structured by external CSS -->
+        <form> 
+            <p>
+                <label>Your name:</label>
+                <input type="text" name="name" required>
+            </p> 
+            
+            <p>
+                <label>Your email:</label>
+                <input type="email" name="email" required>
+            </p> 
+            
+            <p>
+                <label>Your message:</label>
+                <textarea name="message" required></textarea>
+            </p> 
+            
+            <p> 
+                <input type="submit" value="Send Message"> 
+            </p> 
+        </form>  
 
-                    <h2>Supplier Inquiries</h2>
-                    <p>Interested in becoming a Spacebotics supplier?</p>
-                    <p>Please contact us directly at: <strong><a href="mailto:ST10501318@rcconnect.edu.za?subject=SupplierInquiry">ST10501318@rcconnect.edu.za</a></strong></p>  <!--pg86-->
-                </center> 
-            </form>  
+        <hr style="width: 50%;">
+
+        <!-- Supplier Info Box -->
+        <div id="supplier-box">
+            <h2>Supplier Inquiries</h2>
+            <p>Interested in becoming a Spacebotics supplier?</p>
+            <p>Please contact us directly at: <strong><a href="mailto:ST10501318@rcconnect.edu.za?subject=SupplierInquiry">ST10501318@rcconnect.edu.za</a></strong></p>
+        </div>
     </main> 
 
     <br><br>
-    <center>
-        <footer><p>&copy; 2026 Spacebotics</p></footer>
-    </center>
     
+    <!-- Shared Footer layout -->
+    <footer>
+        <footer>&copy; ST10501318</footer>
+    </footer>
 </body> 
 </html>
