@@ -8,6 +8,7 @@ All changes and improvements on on **Space Botics** will be documented on this f
 -Implemented a  clean, modern `Arial, sans-serif` font family across the entire website
 -A `<nav>` tag was written that contains all the hyperlinks and works as the id names 
 -New file: `CHANGELOG.md` in folder
+-Contact & Footer IDs are shared across mutiple pages to reuse same code
 
 ### Changed
 -Reomved the table for html and replaced with the box tag for precise structural alignment
